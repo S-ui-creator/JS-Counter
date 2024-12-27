@@ -1,0 +1,23 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#counter{
+    max-width: 450px;
+    /* background:red; */
+    display: flex;
+    height: 30px;
+    
+}
+#counter *{
+    width: 33.33%;
+    outline: none;
+}
+#counter input{
+    text-align: center;
+}
+#counter button{
+    cursor: pointer;
+}
